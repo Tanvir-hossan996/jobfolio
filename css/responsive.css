@@ -1,0 +1,479 @@
+/*extra small device start*/
+
+@media (max-width:575.98px) {
+
+    .navbar-toggler {
+
+        border-color: black !important;
+        outline: 0px;
+        margin-right: 10px;
+    }
+
+    .navbar-toggler span {
+
+        color: #24c3f1;
+        font-size: 24px;
+
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        margin-top: 30px;
+        text-align: left;
+        padding: 0px;
+    }
+
+
+    #banner .get-job .job-search input {
+
+        width: 310px;
+    }
+
+    #banner .get-job .job-search select {
+
+        display: none;
+    }
+
+
+    #categories .categories-content .categories-item:hover {
+        transform: scale(1);
+        background: #00b8ef;
+    }
+
+    #job .search-job .search-item select {
+
+        display: none;
+    }
+
+    #job .search-job .search-item input {
+
+        width: 410px;
+    }
+
+
+    #job .job-content .job-item .job-heading h2 {
+
+        font-size: 11px;
+    }
+
+    #job .job-content .job-item .job-heading p {
+
+        font-size: 9px;
+    }
+
+    #job .job-content .job-item .job-location {
+
+        margin-left: 0px;
+    }
+
+    #job .job-content .job-item .job-location p {
+
+        font-size: 13px;
+    }
+
+    #job .job-content .job-item .job-salary {
+
+        margin-left: 0px;
+    }
+
+    #job .job-content .job-item .job-salary p {
+
+        font-size: 14px;
+    }
+
+    #job .job-content .job-item .job-btn a {
+
+        margin-left: 0px;
+    }
+
+    #job .job-work .job-work-item:first-child {
+
+        margin-bottom: 30px;
+    }
+
+    #remote .remote-content .remote-item {
+
+        margin-bottom: 30px;
+    }
+
+    #remote .remote-content .brows-job {
+
+        margin-top: 30px;
+    }
+
+    #partner {
+
+        padding-bottom: 30px;
+    }
+
+    #partner .partner-content .partner-item {
+
+        margin-bottom: 30px;
+    }
+
+    footer .footer-content .footer-item span {
+
+        display: none;
+    }
+
+
+
+}
+
+/*extra small device end*/
+
+
+/*small device start*/
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    .navbar-toggler {
+
+        border-color: black !important;
+        outline: 0px;
+    }
+
+    .navbar-toggler span {
+
+        color: #24c3f1;
+        font-size: 24px;
+
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        margin-top: 30px;
+        text-align: left;
+        padding: 0px;
+    }
+
+
+    #job .job-content .job-item {
+
+        padding-right: 10px;
+        justify-content: space-between;
+    }
+
+    #job .search-job .search-item input {
+
+        width: 220px;
+    }
+
+    #job .search-job .search-item select {
+
+        width: 220px;
+    }
+
+    #job .job-content .job-item .job-heading {
+
+        width: 90px;
+    }
+
+    #job .job-content .job-item .job-heading h2 {
+
+        font-size: 11px;
+    }
+
+    #job .job-content .job-item .job-heading p {
+
+        font-size: 9px;
+    }
+
+    #job .job-content .job-item .job-location {
+
+        margin-left: 0px;
+    }
+
+    #job .job-content .job-item .job-location p {
+
+        font-size: 13px;
+    }
+
+    #job .job-content .job-item .job-salary {
+
+        margin-left: 0px;
+    }
+
+    #job .job-content .job-item .job-salary p {
+
+        font-size: 14px;
+    }
+
+    #job .job-content .job-item .job-btn a {
+
+        margin-left: 0px;
+    }
+
+    #job .job-work .job-work-item:first-child {
+
+        margin-bottom: 30px;
+    }
+
+    #remote .remote-content .remote-item {
+
+        margin-bottom: 30px;
+    }
+
+    #remote .remote-content .brows-job {
+
+        margin-top: 30px;
+    }
+
+    #remote .remote-content .brows-job a {
+
+        font-size: 12px;
+    }
+
+    #partner {
+
+        padding-bottom: 30px;
+    }
+
+    #partner .partner-content .partner-item {
+
+        margin-bottom: 30px;
+    }
+
+    footer .footer-content .footer-item span {
+
+        display: none;
+    }
+
+}
+
+/*small device end*/
+
+/*medium device start*/
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .navbar-toggler {
+
+        border-color: black !important;
+        outline: 0px;
+    }
+
+    .navbar-toggler span {
+
+        color: #24c3f1;
+        font-size: 24px;
+
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        margin-top: 30px;
+        text-align: left;
+        padding: 0px;
+    }
+
+    #banner .banner-text {
+
+        padding-top: 60px;
+    }
+
+    #banner .banner-img {
+
+        margin-top: 40px;
+    }
+
+    #banner .get-job .job-search input {
+
+        width: 180px;
+    }
+
+    #banner .get-job .job-search input {
+
+        font-size: 11px;
+    }
+
+    #banner .get-job .job-search select {
+
+        width: 156px;
+        font-size: 10px;
+    }
+
+    #work {
+
+        padding-bottom: 10px;
+    }
+
+    #work .work-content .work-item {
+
+        margin-bottom: 40px;
+    }
+
+    #job .job-content .job-item {
+
+        padding-right: 10px;
+        justify-content: space-between;
+    }
+
+    #job .search-job .search-item input {
+
+        width: 220px;
+    }
+
+    #job .search-job .search-item select {
+
+        width: 220px;
+    }
+
+    #job .job-content .job-item .job-heading {
+
+        width: 90px;
+    }
+
+    #job .job-content .job-item .job-heading h2 {
+
+        font-size: 11px;
+    }
+
+    #job .job-content .job-item .job-heading p {
+
+        font-size: 9px;
+    }
+
+    #job .job-content .job-item .job-location {
+
+        margin-left: 0px;
+    }
+
+    #job .job-content .job-item .job-location p {
+
+        font-size: 13px;
+    }
+
+    #job .job-content .job-item .job-salary {
+
+        margin-left: 0px;
+    }
+
+    #job .job-content .job-item .job-salary p {
+
+        font-size: 14px;
+    }
+
+    #job .job-content .job-item .job-btn a {
+
+        margin-left: 0px;
+    }
+
+    #job .job-work .job-work-item:first-child {
+
+        margin-bottom: 30px;
+    }
+
+
+    #remote .remote-content .remote-item {
+
+        margin-bottom: 30px;
+    }
+
+    #remote .remote-content .brows-job {
+
+        margin-top: 30px;
+    }
+
+
+    #partner {
+
+        padding-bottom: 30px;
+    }
+
+    #partner .partner-content .partner-item {
+
+        margin-bottom: 30px;
+    }
+
+
+}
+
+/*medium device end*/
+
+
+/*large device start*/
+
+@media (min-width:992px) and (max-width:1199.98px){
+    
+    .navbar .navbar-nav{
+        
+        margin-left: 20px;
+    }
+    
+    .navbar .navbar-nav .nav-item .nav-link{
+        
+        padding: 0px 20px;
+        font-size: 17px;
+    }
+    
+    #banner .banner-text h1{
+        
+        font-size: 52px;
+    }
+    
+    #banner .banner-text p{
+        
+        font-size: 16px;
+    }
+    
+    
+    #banner .get-job .job-search input{
+        
+        width: 260px;
+    }
+    
+    #banner .get-job .job-search select{
+        
+        width: 230px;
+    }
+    
+    #job .job-content .job-item .job-location{
+        
+        margin-left: 30px;
+    }
+    
+    #job .job-content .job-item .job-salary{
+        
+        margin-left: 30px;
+    }
+    
+    #job .job-content .job-item .job-btn a{
+        
+        margin-left: 70px;
+    }
+    
+    #categories .categories-content{
+        
+        padding-top: 80px;
+    }
+    
+    
+    #job .search-job .search-item input{
+        
+        width: 400px;
+    }
+    
+    #job .search-job .search-item select{
+        
+        width: 380px;
+    }
+    
+    #job .job-content .job-item .job-heading h2{
+        
+        font-size: 20px;
+    }
+    
+    #job .job-content .job-item:hover .job-heading p{
+        
+        font-size: 16px;
+    }
+    
+    footer .footer-content .footer-item span{
+        
+        display: none;
+    }
+    
+}
+
+/*large device end*/
