@@ -19,8 +19,16 @@
     .navbar .navbar-nav .nav-item .nav-link {
 
         margin-top: 30px;
-        text-align: left;
-        padding: 0px;
+        text-align: center;
+
+    }
+
+    .navbar .butn {
+
+        padding: 13px 15px;
+        margin-left: 231px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
 
@@ -33,7 +41,18 @@
 
         display: none;
     }
-
+    
+    
+    #categories{
+        
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    
+    #categories .categories-content{
+        
+        padding-top: 80px;
+    }
 
     #categories .categories-content .categories-item:hover {
         transform: scale(1);
@@ -115,6 +134,41 @@
 
         display: none;
     }
+    
+    #work .work-content .work-item{
+        
+        padding-bottom: 30px;
+    }
+    
+    #work{
+        
+        padding-bottom: 30px;
+    }
+    
+    #job{
+        
+        padding: 50px;
+    }
+    
+    #job .job-content .brows-job a{
+        
+        font-size: 15px;
+    }
+    
+    #job .job-content .brows-job p{
+        
+        padding-top: 7px;
+    }
+    
+    #remote .remote-content .brows-job a{
+        
+        font-size: 16px;
+    }
+    
+    #remote .remote-content .brows-job p{
+        
+        padding-top: 7px;
+    }
 
 
 
@@ -143,8 +197,16 @@
     .navbar .navbar-nav .nav-item .nav-link {
 
         margin-top: 30px;
-        text-align: left;
+        text-align: center;
         padding: 0px;
+    }
+
+    .navbar .butn {
+
+        padding: 13px 15px;
+        margin-left: 217px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
 
@@ -154,14 +216,26 @@
         justify-content: space-between;
     }
 
-    #job .search-job .search-item input {
+    
+        #banner .get-job .job-search input {
 
-        width: 220px;
+        width: 310px;
     }
 
-    #job .search-job .search-item select {
+    #banner .get-job .job-search select {
 
-        width: 220px;
+        display: none;
+    }
+    
+        #categories{
+        
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    
+    #categories .categories-content{
+        
+        padding-top: 80px;
     }
 
     #job .job-content .job-item .job-heading {
@@ -394,86 +468,86 @@
 
 /*large device start*/
 
-@media (min-width:992px) and (max-width:1199.98px){
-    
-    .navbar .navbar-nav{
-        
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    .navbar .navbar-nav {
+
         margin-left: 20px;
     }
-    
-    .navbar .navbar-nav .nav-item .nav-link{
-        
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
         padding: 0px 20px;
         font-size: 17px;
     }
-    
-    #banner .banner-text h1{
-        
+
+    #banner .banner-text h1 {
+
         font-size: 52px;
     }
-    
-    #banner .banner-text p{
-        
+
+    #banner .banner-text p {
+
         font-size: 16px;
     }
-    
-    
-    #banner .get-job .job-search input{
-        
+
+
+    #banner .get-job .job-search input {
+
         width: 260px;
     }
-    
-    #banner .get-job .job-search select{
-        
+
+    #banner .get-job .job-search select {
+
         width: 230px;
     }
-    
-    #job .job-content .job-item .job-location{
-        
+
+    #job .job-content .job-item .job-location {
+
         margin-left: 30px;
     }
-    
-    #job .job-content .job-item .job-salary{
-        
+
+    #job .job-content .job-item .job-salary {
+
         margin-left: 30px;
     }
-    
-    #job .job-content .job-item .job-btn a{
-        
+
+    #job .job-content .job-item .job-btn a {
+
         margin-left: 70px;
     }
-    
-    #categories .categories-content{
-        
+
+    #categories .categories-content {
+
         padding-top: 80px;
     }
-    
-    
-    #job .search-job .search-item input{
-        
+
+
+    #job .search-job .search-item input {
+
         width: 400px;
     }
-    
-    #job .search-job .search-item select{
-        
+
+    #job .search-job .search-item select {
+
         width: 380px;
     }
-    
-    #job .job-content .job-item .job-heading h2{
-        
+
+    #job .job-content .job-item .job-heading h2 {
+
         font-size: 20px;
     }
-    
-    #job .job-content .job-item:hover .job-heading p{
-        
+
+    #job .job-content .job-item:hover .job-heading p {
+
         font-size: 16px;
     }
-    
-    footer .footer-content .footer-item span{
-        
+
+    footer .footer-content .footer-item span {
+
         display: none;
     }
-    
+
 }
 
 /*large device end*/

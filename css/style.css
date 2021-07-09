@@ -19,23 +19,19 @@
 */
 /*Common css start*/
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
-
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
 h1,
 h2,
 h3,
@@ -43,10 +39,9 @@ h4,
 h5,
 h6,
 p {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-
 /*Common css end*/
 /*variable css start*/
 /*variable css end*/
@@ -54,1157 +49,985 @@ p {
 /*mixing css end*/
 /*nav section start*/
 .navbar {
-    padding: 15px 0px 20px 0px;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    z-index: 9999;
+  padding: 0px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: 9999;
 }
-
 .navbar .navbar-nav {
-    margin-left: 60px;
+  margin-left: 60px;
 }
-
 .navbar .navbar-nav .nav-item .nav-link {
-    display: block;
-    padding: 0px 25px;
-    color: #848484;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    margin-top: 55px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  display: block;
+  padding: 0px 25px;
+  color: #848484;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 6px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: #00b8ef;
+  color: #00b8ef;
 }
-
 .navbar .navbar-nav .nav-item .active {
-    color: #00b8ef;
+  color: #00b8ef;
 }
-
 .navbar .butn {
-    background: #00b8ef;
-    padding: 15px 20px;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    box-shadow: 0px 0px 0px 0px #00b8ef;
-    margin-top: 45px;
+  background: #00b8ef;
+  padding: 15px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  box-shadow: 0px 0px 0px 0px #00b8ef;
 }
-
 .active-nav {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background: #ffffff;
-    box-shadow: 0px 3px 8px -4px black;
-    z-index: 9999999999;
-    animation: smoth linear 1s;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #f2f2f2;
+  z-index: 9999999999;
+  animation: smoth linear 1s;
 }
-
 @keyframes smoth {
-    0% {
-        top: -70px;
-    }
-
-    100% {
-        top: 0px;
-    }
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 0px;
+  }
 }
-
 /*nav section end*/
 /*modal section start*/
 /*modal section end*/
 /*banner section start*/
 #banner {
-    position: relative;
-    padding-top: 145px;
-    background: #ffffff;
+  position: relative;
+  padding-top: 145px;
+  background: #ffffff;
 }
-
 #banner .banner-text {
-    padding-top: 120px;
+  padding-top: 120px;
 }
-
 #banner .banner-text h1 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 58px;
-    color: #222222;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 58px;
+  color: #222222;
 }
-
 #banner .banner-text p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 18px;
-    color: #444444;
-    margin-right: 65px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 18px;
+  color: #444444;
+  margin-right: 65px;
 }
-
 #banner .banner-img {
-    margin-left: 83px;
+  margin-left: 83px;
 }
-
 #banner .get-job {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 #banner .get-job .job-btn {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 #banner .get-job .job-btn a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 18px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 1px solid #00b8ef;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #00b8ef;
 }
-
 #banner .get-job .job-btn a:first-child {
-    background: #00b8ef;
-    color: white;
-    margin-right: 5px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  background: #00b8ef;
+  color: white;
+  margin-right: 5px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #banner .get-job .job-btn a:first-child:hover {
-    background: transparent;
-    border: 1px solid #00b8ef;
-    color: #222222;
+  background: transparent;
+  border: 1px solid #00b8ef;
+  color: #222222;
 }
-
 #banner .get-job .job-btn a:last-child {
-    color: #222222;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  color: #222222;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #banner .get-job .job-btn a:last-child:hover {
-    background: #00b8ef;
-    color: white;
+  background: #00b8ef;
+  color: white;
 }
-
 #banner .get-job .job-search {
-    background: #f5f5f5;
-    padding: 30px 30px;
-    display: flex;
-    justify-content: space-between;
+  background: #f5f5f5;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
 }
-
 #banner .get-job .job-search input {
-    width: 350px;
-    padding: 10px 10px;
-    border: none;
-    outline: 0;
-    border: 1px solid #222222;
-    border-radius: 3px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-style: italic;
-    font-size: 14px;
-    color: #222222;
+  width: 350px;
+  padding: 10px 10px;
+  border: none;
+  outline: 0;
+  border: 1px solid #222222;
+  border-radius: 3px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  color: #222222;
 }
-
 #banner .get-job .job-search select {
-    width: 350px;
-    padding: 12px 10px;
-    border: none;
-    border: 1px solid #222222;
-    border-radius: 3px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-style: italic;
-    font-size: 13px;
-    color: #222222;
+  width: 350px;
+  padding: 12px 10px;
+  border: none;
+  border: 1px solid #222222;
+  border-radius: 3px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 13px;
+  color: #222222;
 }
-
 #banner .get-job .job-search a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    background: #00b8ef;
-    border-radius: 3px;
-    padding: 9px 20px;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  background: #00b8ef;
+  border-radius: 3px;
+  padding: 9px 20px;
+  text-transform: capitalize;
 }
-
 /*banner section end*/
 /*heading common css start*/
 .heading h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 32px;
-    color: #222222;
-    text-transform: capitalize;
-    margin-bottom: 50px;
-    position: relative;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 32px;
+  color: #222222;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  position: relative;
 }
-
 .heading h2::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 3px;
-    background: #00b8ef;
-    bottom: -28px;
-    left: 50%;
-    transform: translateX(-50%);
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: #00b8ef;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
 .heading p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
-    padding: 0px 10px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  padding: 0px 10px;
 }
-
 /*heading common css end*/
 /*categories section start*/
 #categories {
-    background: #ffffff;
-    padding-top: 100px;
-    padding-bottom: 70px;
+  background: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
-
 #categories .categories-content {
-    padding-top: 110px;
+  padding-top: 110px;
 }
-
 #categories .categories-content .categories-item {
-    background: #f5f5f5;
-    width: 100%;
-    padding: 60px 0px 60px 0px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  background: #f5f5f5;
+  width: 100%;
+  padding: 60px 0px 60px 0px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #categories .categories-content .categories-item h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 24px;
-    color: #222222;
-    text-transform: capitalize;
-    padding: 8px 0px;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 24px;
+  color: #222222;
+  text-transform: capitalize;
+  padding: 8px 0px;
 }
-
 #categories .categories-content .categories-item p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #777777;
-    margin-bottom: 15px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 15px;
 }
-
 #categories .categories-content .categories-item a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #00b8ef;
-    text-transform: capitalize;
-    padding: 10px 10px;
-    background: white;
-    border-radius: 4px;
-    display: none;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #00b8ef;
+  text-transform: capitalize;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 4px;
+  display: none;
 }
-
 #categories .categories-content .categories-item:hover a {
-    display: inline-block;
+  display: inline-block;
 }
-
 #categories .categories-content .categories-item:hover {
-    transform: scale(1.2);
-    background: #00b8ef;
+  transform: scale(1.06);
+  background: #00b8ef;
 }
-
 /*categories section end*/
 /*work section start*/
 #work {
-    padding: 60px 0px;
-    background: #f5f5f5;
+  padding: 60px 0px;
+  background: #f5f5f5;
 }
-
 #work .work-content {
-    padding-top: 60px;
+  padding-top: 60px;
 }
-
 #work .work-content .work-item {
-    width: 100%;
+  width: 100%;
 }
-
 #work .work-content .work-item .work-img img {
-    padding: 20px;
-    background: white;
-    border-radius: 4px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #work .work-content .work-item h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 20px;
-    color: #222222;
-    padding: 25px 0px;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 20px;
+  color: #222222;
+  padding: 25px 0px;
 }
-
 #work .work-content .work-item p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
 }
-
 #work .work-content .work-item:hover .work-img img {
-    background: #00b8ef;
+  background: #00b8ef;
 }
-
 /*work section end*/
 /*job section start*/
 #job {
-    background: white;
-    padding: 100px 0px;
+  background: white;
+  padding: 100px 0px;
 }
-
 #job .search-job {
-    padding-top: 60px;
+  padding-top: 60px;
 }
-
 #job .search-job .search-item {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 #job .search-job .search-item input {
-    width: 550px;
-    padding: 10px 10px;
-    border: none;
-    outline: 0;
-    border: 1px solid #222222;
-    border-radius: 3px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-style: italic;
-    font-size: 14px;
-    color: #222222;
+  width: 550px;
+  padding: 10px 10px;
+  border: none;
+  outline: 0;
+  border: 1px solid #222222;
+  border-radius: 3px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  color: #222222;
 }
-
 #job .search-job .search-item select {
-    width: 550px;
-    padding: 12px 10px;
-    border: none;
-    border: 1px solid #222222;
-    border-radius: 3px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-style: italic;
-    font-size: 13px;
-    color: #222222;
+  width: 550px;
+  padding: 12px 10px;
+  border: none;
+  border: 1px solid #222222;
+  border-radius: 3px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 13px;
+  color: #222222;
 }
-
 #job .search-job .search-item a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    background: #00b8ef;
-    border-radius: 3px;
-    padding: 9px 20px;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  background: #00b8ef;
+  border-radius: 3px;
+  padding: 9px 20px;
+  text-transform: capitalize;
 }
-
 #job .job-content {
-    padding-top: 55px;
+  padding-top: 55px;
 }
-
 #job .job-content .job-item {
-    display: flex;
-    background: #f5f5f5;
-    padding: 10px 30px 10px 10px;
-    margin-bottom: 30px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  display: flex;
+  background: #f5f5f5;
+  padding: 10px 30px 10px 10px;
+  margin-bottom: 30px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-content .job-item:hover {
-    background: #00b8ef;
-    transform: scale(1.01);
+  background: #00b8ef;
+  transform: scale(1.01);
 }
-
 #job .job-content .job-item .job-heading {
-    margin-left: 20px;
-    padding-top: 17px;
-    width: 300px;
+  margin-left: 20px;
+  padding-top: 17px;
+  width: 300px;
 }
-
 #job .job-content .job-item .job-heading h4 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #00b8ef;
-    transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #00b8ef;
+  transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
 }
-
 #job .job-content .job-item .job-heading h2 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    color: #222222;
-    padding: 7px 0px;
-    transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  color: #222222;
+  padding: 7px 0px;
+  transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
 }
-
 #job .job-content .job-item .job-heading p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #444444;
-    transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+  transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
 }
-
 #job .job-content .job-item:hover .job-heading h4 {
-    color: white;
+  color: white;
 }
-
 #job .job-content .job-item:hover .job-heading h2 {
-    color: white;
+  color: white;
 }
-
 #job .job-content .job-item:hover .job-heading p {
-    color: #ffffff;
+  color: #ffffff;
 }
-
 #job .job-content .job-item .job-location {
-    display: flex;
-    margin-left: 90px;
-    padding-top: 44px;
+  display: flex;
+  margin-left: 90px;
+  padding-top: 44px;
 }
-
 #job .job-content .job-item .job-location i {
-    padding-top: 4px;
-    padding-right: 8px;
-    font-size: 14px;
-    transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
+  padding-top: 4px;
+  padding-right: 8px;
+  font-size: 14px;
+  transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
 }
-
 #job .job-content .job-item .job-location p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
-    text-transform: capitalize;
-    transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
 }
-
 #job .job-content .job-item:hover .job-location i {
-    color: white;
+  color: white;
 }
-
 #job .job-content .job-item:hover .job-location p {
-    color: white;
+  color: white;
 }
-
 #job .job-content .job-item .job-salary {
-    padding-top: 43px;
-    margin-left: 90px;
+  padding-top: 43px;
+  margin-left: 90px;
 }
-
 #job .job-content .job-item .job-salary p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
 }
-
 #job .job-content .job-item:hover .job-salary p {
-    color: white;
+  color: white;
 }
-
 #job .job-content .job-item .job-btn a {
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 315px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: white;
-    background: #00b8ef;
-    text-transform: capitalize;
-    padding: 10px 15px;
-    border-radius: 4px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 315px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  background: #00b8ef;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-content .job-item .job-btn a i {
-    font-size: 12px;
-    margin-left: 5px;
+  font-size: 12px;
+  margin-left: 5px;
 }
-
 #job .job-content .job-item:hover .job-btn a {
-    background: white;
-    color: #222222;
+  background: white;
+  color: #222222;
 }
-
 #job .job-content .brows-job {
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
 }
-
 #job .job-content .brows-job p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
-    padding-top: 15px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  padding-top: 15px;
 }
-
 #job .job-content .brows-job a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    background: #00b8ef;
-    border-radius: 3px;
-    padding: 9px 20px;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  background: #00b8ef;
+  border-radius: 3px;
+  padding: 9px 20px;
+  text-transform: capitalize;
 }
-
 #job .job-content .brows-job a i {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 #job .job-work {
-    padding-top: 100px;
+  padding-top: 100px;
 }
-
 #job .job-work .job-work-item {
-    padding: 30px 50px 30px 30px;
-    background: #f5f5f5;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  padding: 30px 50px 30px 30px;
+  background: #f5f5f5;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-work .job-work-item:hover {
-    background: #00b8ef;
-    transform: scale(1.01);
+  background: #00b8ef;
+  transform: scale(1.01);
 }
-
 #job .job-work .job-work-item h2 {
-    font-family: 'Arimo';
-    font-weight: 4000;
-    font-size: 20px;
-    color: #222222;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  font-family: 'Arimo';
+  font-weight: 4000;
+  font-size: 20px;
+  color: #222222;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-work .job-work-item:hover h2 {
-    color: white;
+  color: white;
 }
-
 #job .job-work .job-work-item h5 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #00b8ef;
-    margin: 5px 0px 25px 0px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #00b8ef;
+  margin: 5px 0px 25px 0px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-work .job-work-item:hover h5 {
-    color: white;
+  color: white;
 }
-
 #job .job-work .job-work-item p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #222222;
-    padding-bottom: 30px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+  padding-bottom: 30px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-work .job-work-item:hover p {
-    color: white;
+  color: white;
 }
-
 #job .job-work .job-work-item h4 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    color: #222222;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  color: #222222;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #job .job-work .job-work-item h4 i {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 #job .job-work .job-work-item:hover h4 {
-    color: white;
+  color: white;
 }
-
 /*job section end*/
 /*remote section start*/
 #remote {
-    padding: 60px 0px;
-    background: #f5f5f5;
+  padding: 60px 0px;
+  background: #f5f5f5;
 }
-
 #remote .remote-content {
-    padding-top: 60px;
+  padding-top: 60px;
 }
-
 #remote .remote-content .remote-item {
-    padding: 30px 25px 0px;
-    background: white;
-    border-radius: 4px;
+  padding: 30px 25px 0px;
+  background: white;
+  border-radius: 4px;
 }
-
 #remote .remote-content .remote-item .remote-deatils {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
 #remote .remote-content .remote-item .remote-deatils h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 20px;
-    color: #222222;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 20px;
+  color: #222222;
 }
-
 #remote .remote-content .remote-item .remote-deatils p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #222222;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #222222;
 }
-
 #remote .remote-content .remote-item .remote-deatils .deatils-rate {
-    display: flex;
-    padding-top: 10px;
-    padding-left: 55px;
-    padding-bottom: 10px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 55px;
+  padding-bottom: 10px;
 }
-
 #remote .remote-content .remote-item .remote-deatils .deatils-rate ul {
-    display: flex;
+  display: flex;
 }
-
 #remote .remote-content .remote-item .remote-deatils .deatils-rate ul li i {
-    color: #f68b1e;
-    font-size: 12px;
-    padding: 0px 2px;
+  color: #f68b1e;
+  font-size: 12px;
+  padding: 0px 2px;
 }
-
 #remote .remote-content .remote-item .remote-deatils .deatils-rate h5 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #222222;
-    padding-top: 6px;
-    padding-left: 4px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  padding-top: 6px;
+  padding-left: 4px;
 }
-
 #remote .remote-content .remote-item .remote-rate {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
-
 #remote .remote-content .remote-item .remote-rate::before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #f1f1f1;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #f1f1f1;
 }
-
 #remote .remote-content .remote-item .remote-rate h3 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #222222;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  text-transform: capitalize;
 }
-
 #remote .remote-content .remote-item .remote-rate h4 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 22px;
-    color: 'Arimo';
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 22px;
+  color: 'Arimo';
 }
-
 #remote .remote-content .remote-item .remote-rate h4 span {
-    font-size: 16px;
+  font-size: 16px;
 }
-
 #remote .remote-content .remote-item .remote-location {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
-
 #remote .remote-content .remote-item .remote-location::before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #f1f1f1;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #f1f1f1;
 }
-
 #remote .remote-content .remote-item .remote-location h3 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #222222;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  text-transform: capitalize;
 }
-
 #remote .remote-content .remote-item .remote-location h4 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: 'Arimo';
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: 'Arimo';
+  text-transform: capitalize;
 }
-
 #remote .remote-content .remote-item .remote-success {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
-
 #remote .remote-content .remote-item .remote-success::before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #f1f1f1;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #f1f1f1;
 }
-
 #remote .remote-content .remote-item .remote-success::after {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #f1f1f1;
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #f1f1f1;
 }
-
 #remote .remote-content .remote-item .remote-success h3 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: #222222;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  text-transform: capitalize;
 }
-
 #remote .remote-content .remote-item .remote-success h4 {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    color: 'Arimo';
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  color: 'Arimo';
+  text-transform: capitalize;
 }
-
 #remote .remote-content .remote-item .remote-btn {
-    padding: 30px 0px;
-    position: relative;
+  padding: 30px 0px;
+  position: relative;
 }
-
 #remote .remote-content .remote-item .remote-btn::after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-    height: 3px;
-    background: white;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 #remote .remote-content .remote-item .remote-btn a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 18px;
-    text-transform: capitalize;
-    color: #222222;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #222222;
 }
-
 #remote .remote-content .remote-item .remote-btn a i {
-    font-size: 14px;
-    margin-left: 6px;
+  font-size: 14px;
+  margin-left: 6px;
 }
-
 #remote .remote-content .remote-item:hover .remote-btn::after {
-    background: #00b8ef;
+  background: #00b8ef;
 }
-
 #remote .remote-content .brows-job {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
 }
-
 #remote .remote-content .brows-job p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
-    padding-top: 15px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  padding-top: 15px;
 }
-
 #remote .remote-content .brows-job a {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    background: #00b8ef;
-    border-radius: 3px;
-    padding: 9px 20px;
-    text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  background: #00b8ef;
+  border-radius: 3px;
+  padding: 9px 20px;
+  text-transform: capitalize;
 }
-
 #remote .remote-content .brows-job a i {
-    font-size: 16px;
+  font-size: 16px;
 }
-
 /*remote section end*/
-/*testimonial section start*/
-#testimonial {
-    padding: 60px 0px 80px;
-}
-
-#testimonial .testimonial-item .testi-deatils {
-    padding-top: 10px;
-}
-
-#testimonial .testimonial-item .testi-deatils h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 20px;
-    color: #222222;
-}
-
-#testimonial .testimonial-item .testi-deatils p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #444444;
-}
-
-/*testimonial section end*/
 /*partner section start*/
 #partner {
-    padding-top: 30px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-
 #partner .partner-content {
-    padding-top: 60px;
+  padding-top: 60px;
 }
-
 #partner .partner-content .partner-item h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 46px;
-    color: #222222;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 46px;
+  color: #222222;
 }
-
 #partner .partner-content .partner-item p {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 24px;
-    color: #222222;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 24px;
+  color: #222222;
 }
-
 /*partner section end*/
 /*footer sectin start*/
 footer {
-    background: url(../images/footer-banner.png) no-repeat center / cover;
-    position: relative;
-    z-index: 1;
+  background: url(../images/footer-banner.png) no-repeat center / cover;
+  position: relative;
+  z-index: 1;
 }
-
 footer::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: rgba(0, 0, 0, 0.85);
-    z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: -1;
 }
-
 footer .footer-img img {
-    padding: 30px 0px;
+  padding: 30px 0px;
 }
-
 footer .footer-content {
-    padding: 60px 0px;
-    position: relative;
+  padding: 60px 0px;
+  position: relative;
 }
-
 footer .footer-content::after {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 1px;
-    background: #202020;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background: #202020;
 }
-
 footer .footer-content::before {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 1px;
-    background: #202020;
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background: #202020;
 }
-
 footer .footer-content .footer-item h2 {
-    font-family: 'Abril Fatface';
-    font-weight: 400;
-    font-size: 24px;
-    color: white;
-    padding-bottom: 40px;
-    position: relative;
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  padding-bottom: 40px;
+  position: relative;
 }
-
 footer .footer-content .footer-item h2::after {
-    content: '';
-    position: absolute;
-    bottom: 20px;
-    left: 0px;
-    width: 50px;
-    height: 4px;
-    background: #00b8ef;
-    border-radius: 3px;
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  width: 50px;
+  height: 4px;
+  background: #00b8ef;
+  border-radius: 3px;
 }
-
 footer .footer-content .footer-item p {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    padding-bottom: 25px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 25px;
 }
-
 footer .footer-content .footer-item .footer-btn a {
-    text-transform: capitalize;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: #00b8ef;
+  text-transform: capitalize;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: #00b8ef;
 }
-
 footer .footer-content .footer-item .footer-btn a i {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 footer .footer-content .footer-item ul li {
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    padding-bottom: 10px;
-    cursor: pointer;
-    text-transform: capitalize;
-    transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
 }
-
 footer .footer-content .footer-item ul li:hover {
-    color: #00b8ef;
-    padding-left: 5px;
+  color: #00b8ef;
+  padding-left: 5px;
 }
-
 footer .footer-content .footer-item input {
-    background: transparent;
-    outline: none;
-    color: white;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 14px;
-    font-style: italic;
-    padding: 12px 0px 12px 12px;
-    border-color: white;
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  padding: 12px 0px 12px 12px;
+  border-color: white;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
 }
-
 footer .footer-content .footer-item span {
-    display: inline-block;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    background: #00b8ef;
-    padding: 12px;
-    margin-left: -4px;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
+  display: inline-block;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background: #00b8ef;
+  padding: 12px;
+  margin-left: -4px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
-
 footer .footer-content .footer-item .footer-icon {
-    padding-top: 25px;
+  padding-top: 25px;
 }
-
 footer .footer-content .footer-item .footer-icon ol {
-    display: flex;
+  display: flex;
 }
-
 footer .footer-content .footer-item .footer-icon ol li a i {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    line-height: 40px;
-    background: white;
-    color: #00b8ef;
-    text-align: center;
-    margin-right: 8px;
-    transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  background: white;
+  color: #00b8ef;
+  text-align: center;
+  margin-right: 8px;
+  transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
 }
-
 footer .footer-content .footer-item .footer-icon ol li a i:hover {
-    background: #00b8ef;
-    color: white;
+  background: #00b8ef;
+  color: white;
 }
-
 footer .footer-copy p {
-    padding: 20px 0px;
-    font-family: 'Arimo';
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    text-align: center;
+  padding: 20px 0px;
+  font-family: 'Arimo';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-align: center;
 }
-
 /*footer sectin end*/
 /*scroll-btn section start*/
 .scroll-btn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    background: #00b8ef;
-    text-align: center;
-    line-height: 38px;
-    cursor: pointer;
-    color: white;
-    z-index: 999999999999;
-    display: none;
-
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #00b8ef;
+  text-align: center;
+  line-height: 38px;
+  cursor: pointer;
+  color: white;
+  z-index: 999999999999;
+  display: none;
 }
-
 .scroll-btn i {
-    font-size: 18px;
+  font-size: 18px;
 }
-
 /*scroll-btn section end*/
